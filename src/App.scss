@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+$dark-jungle-green: #000f08ff;
+$outer-space-crayola: #1c3738ff;
+$dark-liver: #4d4847ff;
+$mint-cream: #f4fff8ff;
+$pewter-blue: #8baaadff;
+.CVApp h1 { 
+	text-align: center;
+	font-size: calc(10px + 4vmin);
+} 
+.CVApp { 
+	display: flex;
+	flex-direction: column ;
+	align-content: center;
+	padding: 10vmin 1rem;
+} 
+.FormContainer { 
+	border-radius: 10px;
+	text-align: left;
+	align-self: center;
+	justify-self: center;
+	font-size: calc(10px + 2vmin);
+	width: 80vw;
+	bottom: 20vh;
+	border: 5px solid $dark-jungle-green;
+	box-shadow: -10px -5px 10px $dark-jungle-green;
+	background: $mint-cream;
+} 
+.expandablelist{ 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.cvitem { 
+	border-top: 5px solid $dark-jungle-green;
+	max-width: 20vw;
+	padding-top: 5px;
+	padding-bottom: 5px;
+} 
+
+body {
+	background: $dark-liver;
+}
+
+body h1 { 
+	color: $mint-cream;
+}
+
+form h3 { 
+	margin-left: 15px;
+} 
+form button {
+	margin-left: 15px;
+
+}
+
+form button {
+	margin: 5px;
+	margin-left: 15px;
+
+} 
+form input {
+	font-size: calc(10px + 1vmin); 
+	border-radius: 15px;
+	background-color: $pewter-blue;
+	color: $mint-cream;
+	margin-left: 15px;
+}
+
+.savedField { 
+	font-size: calc(10px + 1vmin); 
+	border-radius: 10px;
+	background-color: $pewter-blue;
+	color: $mint-cream;
+	margin-left: 15px;
+	padding: 3px;
+} 
+
+form input::focus-visible {
+	border-radius: 10px;
+} 
+
+form input::placeholder {
+	color: $mint-cream;
+	text-align: center;
+} 
+
+
